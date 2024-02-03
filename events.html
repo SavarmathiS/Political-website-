@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political Campaign - Events</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4cbb17;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <!-- Add your styles or link to an external stylesheet here if needed -->
+</head>
+
+<body>
+    <header>
+        <h1>Upcoming Events</h1>
+    </header>
+    <nav>
+         
+                <a href="home.html">Home</a>
+                <a href="about.html">about</a>
+                <a href="issues.html">issues</a>
+                <a href="events.html">events</a>
+                <a href="contact.html">Contact</a>
+                
+            
+    </nav>
+    <section>
+        <h2>Event 1</h2>
+        <body>
+    <label for="dateInput">Select a date:</label>
+    <input type="date" id="dateInput" name="dateInput"><br>
+    <label for="timeInput">Select a time:</label>
+    <input type="time" id="timeInput" name="timeInput">
+
+    <!-- You can use JavaScript to handle the selected date if needed -->
+    <script>
+        document.getElementById("dateInput").addEventListener("change", function () {
+            var selectedDate = this.value;
+            console.log("Selected date: " + selectedDate);
+        });
+            </script>
+    <script>
+         document.getElementById("timeInput").addEventListener("change", function () {
+            var selectedTime = this.value;
+            console.log("Selected time: " + selectedTime);
+            // You can perform further actions with the selected time
+       
+            // You can perform further actions with the selected date
+        });
+    </script>
+</body>
+
+        <p>Date, time, and details for the first upcoming event.</p>
+    </section>
+    <section>
+        <h2>Event 2</h2>
+        <section>
+        <h2>Event 1</h2>
+        <body>
+    <label for="dateInput">Select a date:</label>
+    <input type="date" id="dateInput" name="dateInput"><br>
+    <label for="timeInput">Select a time:</label>
+    <input type="time" id="timeInput" name="timeInput">
+
+    <!-- You can use JavaScript to handle the selected date if needed -->
+    <script>
+        document.getElementById("dateInput").addEventListener("change", function () {
+            var selectedDate = this.value;
+            console.log("Selected date: " + selectedDate);
+        });
+            </script>
+    <script>
+         document.getElementById("timeInput").addEventListener("change", function () {
+            var selectedTime = this.value;
+            console.log("Selected time: " + selectedTime);
+            // You can perform further actions with the selected time
+       
+            // You can perform further actions with the selected date
+        });
+    </script>
+        <p>Date, time, and details for the second upcoming event.</p>
+    </section>
+    <!-- Add more sections or content as needed -->
+    <footer>
+        <p>&copy; 2024 Political Campaign</p>
+    </footer>
+</body>
+
+</html>

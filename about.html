@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Candidate Registration</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFB6C1;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <!-- Add your styles  link to an external stylesheet here if needed -->
+</head>
+
+<body>
+    <header>
+        <h1>About Our Campaign</h1>
+    </header>
+    <nav>
+         
+                <a href="home.html">Home</a>
+                <a href="about.html">about</a>
+                <a href="issues.html">issues</a>
+                <a href="events.html">events</a>
+                <a href="contact.html">Contact</a>
+                
+            
+    </nav>
+    </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Candidate Registration</h1>
+
+    <form>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="partyAffiliation">Party Affiliation:</label>
+        <input type="text" id="partyAffiliation" name="partyAffiliation" required>
+
+        <label for="experience">Years of Experience:</label>
+        <input type="number" id="experience" name="experience" required>
+
+        <label for="education">Education:</label>
+        <input type="text" id="education" name="education" required>
+
+        <label for="keyPositions">Key Positions Held (comma-separated):</label>
+        <input type="text" id="keyPositions" name="keyPositions" required>
+
+        <label for="campaignMessage">Campaign Message:</label>
+        <textarea id="campaignMessage" name="campaignMessage" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Candidate Campaign</p>
+    </footer>
+
+</body>
+
+</html>
